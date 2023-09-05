@@ -1,0 +1,27 @@
+{
+  "name": "broken-link-finder",
+  "version": "1.0.0",
+  "description": "Finds which links are broken in certain HTTP",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli_file" : "node ./src/cli.js ./files/text.md",
+    "cli_dir" : "node ./src/cli.js ./files/",
+    "cli:validation" : "node ./src/cli.js ./files/text.md --validation"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Delkyros/Javascript_backend"
+  },
+  "keywords": [],
+  "author": "Delkyros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Delkyros/Javascript_backend"
+  },
+  "homepage": "https://github.com/Delkyros",
+  "dependencies": {
+    "chalk": "5.0.1"
+  }
+}

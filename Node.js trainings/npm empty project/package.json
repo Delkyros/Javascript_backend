@@ -1,0 +1,19 @@
+{
+  "name": "starter-project",
+  "version": "1.0.0",
+  "description": "A simple standard to begin a project",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "beginner",
+    "npm",
+    "hello",
+    "world"
+  ],
+  "author": "Delkyros",
+  "license": "ISC"
+}
